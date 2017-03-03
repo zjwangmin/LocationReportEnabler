@@ -20,7 +20,7 @@ public class SimStateBroadCaseRecieve extends BroadcastReceiver {
     private int simState = SIM_INVALID;
 
     private final String COMMAND_PREFIX = "setprop ";
-    private final String[] PROPERTIES = {"gsm.sim.operator.numeric 300012"/*310004*/,
+    private final String[] PROPERTIES = {"gsm.sim.operator.numeric 300030"/*310004*/,
             "gsm.sim.operator.iso-country us",
             "gsm.sim.operator.alpha Verizon"};
 
