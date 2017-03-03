@@ -1,4 +1,4 @@
-package com.ghostflying.locationreportenabler;
+package com.zioke.locationreportenabler;
 
 import android.app.Activity;
 import android.app.AlertDialog;
