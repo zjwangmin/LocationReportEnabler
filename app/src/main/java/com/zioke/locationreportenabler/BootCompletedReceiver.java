@@ -1,4 +1,4 @@
-package com.ghostflying.locationreportenabler;
+package com.zioke.locationreportenabler;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,9 +8,10 @@ import android.util.Log;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+
 public class BootCompletedReceiver extends BroadcastReceiver {
     private final String COMMAND_PREFIX = "setprop ";
-    private final String[] PROPERTIES = {"gsm.sim.operator.numeric 310004",
+    private final String[] PROPERTIES = {"gsm.sim.operator.numeric 300012"/*310004*/,
             "gsm.sim.operator.iso-country us",
             "gsm.sim.operator.alpha Verizon"};
 
